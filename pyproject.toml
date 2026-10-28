@@ -1,0 +1,19 @@
+[project]
+name = "day-2-assignment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "cruqza", email = "mugendierickson@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.1.0",
+]
+
+[project.scripts]
+day-2-assignment = "day_2_assignment:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
